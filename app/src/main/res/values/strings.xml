@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AD Skiper</string>
+    <string name="accessibility_service_description">跳过应用开屏广告</string>
+</resources>

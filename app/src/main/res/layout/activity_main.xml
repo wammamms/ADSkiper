@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/service_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="服务已关闭"
+        android:textSize="18sp"/>
+
+    <com.suke.widget.SwitchButton
+        android:id="@+id/switch_button"
+        android:layout_width="84dp"
+        android:layout_height="52dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="100dp"
+        android:shadowColor="#0066ff" />
+
+    <TextView
+        android:layout_width="275dp"
+        android:layout_height="137dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:layout_marginTop="100dp"
+        android:text="  在 辅助功能—无障碍服务 中找到AD Skiper并启动即可使用本软件的功能(点击开关即可跳转)"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/rank_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:text="左滑进入排行榜"
+        android:textSize="17sp"
+        android:textColor="@color/black6"/>
+
+</LinearLayout>
