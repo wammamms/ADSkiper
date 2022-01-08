@@ -27,7 +27,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
-    private Intent intent = new Intent(MainActivity.this, SkipService.class);;
+    private Intent intent ;
     private TextView ranktv;
     private TextView serviceState;
     private com.suke.widget.SwitchButton switchButton;
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        intent = new Intent(MainActivity.this, SkipService.class);
         gue = new GestureDetector(this,new MygestureListener());
 
         intent = new Intent(MainActivity.this, SkipService.class);
